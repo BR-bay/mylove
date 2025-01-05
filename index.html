@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Cinta Bayu</title>
+    <style>
+        /* Global Style */
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            background: linear-gradient(90deg, #ff4d6d, #ff7597);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 15px auto;
+            line-height: 1.8;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 15px;
+            border-radius: 8px;
+            animation: slideUp 1s ease-out;
+        }
+
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+        }
+
+        .emoji {
+            font-size: 2.2em;
+            animation: bounce 2s infinite;
+        }
+
+        /* Love Icon Animation */
+        .love-icon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            animation: float 5s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(100vh); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+
+        /* Slideshow */
+        .slideshow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            width: 90%;
+            max-width: 600px;
+            height: 300px;
+            margin: 30px auto;
+            border-radius: 15px;
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            position: relative;
+        }
+
+        .slideshow img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: slide 20s infinite;
+        }
+
+        @keyframes slide {
+            0%, 20% { transform: translateX(0); }
+            25%, 45% { transform: translateX(-100%); }
+            50%, 70% { transform: translateX(-200%); }
+            75%, 95% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.4em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .emoji {
+                font-size: 1.8em;
+            }
+
+            .slideshow {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .emoji {
+                font-size: 1.5em;
+            }
+
+            .slideshow {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>💖 CINTA KITA 💖</h1>
+    <div class="container">
+        <p class="emoji">❤️ CINTAAA…KUUUUUUU……❤️</p>
+        <p class="emoji">😍 SAYAAAAANGGGGKUUUUU……😍</p>
+        <p class="emoji">🌹 APRI JONITA YENDA……🌹</p>
+        <p>
+            Bayu berani punya mimpi untuk hidup lebih lama lagi,
+            karena Bayu tahu ada Endaa di bumi. Bayu selalu enggak
+            sabar ngelewatin banyak hari, karena Bayu tahu kalau
+            Bayu pasti akan ketemu Endaa lagi. Endaa enggak perlu
+            jadi orang lain, karena dengan Endaa jadi diri Endaa sendiri
+            itu udah bisa bikin aku jatuh cinta berkali-kali.
+        </p>
+        <p>
+            Sebelumnya Bayu mau minta maaf sama Enda. Maaf
+            kalau di antara banyaknya manusia di bumi ini,
+            Endaa malah dapatnya Bayu. Maaf kalau di antara
+            banyaknya hati yang bisa Endaa menangkan, Endaa
+            malah dipertemukan dengan Bayu yang jelas memiliki
+            banyak kekurangan. Sebagai manusia biasa yang jauh
+            dari kata sempurna, maaf kalau Bayu tak selalu bisa
+            menjadi yang Endaa damba. Tapi percayalah pada Bayu,
+            untuk Endaa semuanya akan Bayu lakukan semampu yang
+            Bayu bisa.
+        </p>
+        <p>
+            Entah mengapa setiap kali Bayu melihat sepasang
+            Mata Endaa, Bayu selalu ingin tersesat di sana sepanjang
+            waktu. Entah mengapa setiap kali aku melihat
+            sabit yang terbit dari bibir Endaa, Bayu selalu ingin bisa
+            memiliki Endaa lebih lama dari usia yang dititipkan
+            Tuhan pada Bayu. Endaa bukan sekadar indah, tapi lebih
+            daripada itu. Endaa selalu tahu bagaimana caranya
+            mengembalikan bahagia Bayu. Bahkan dengan adanya
+            Endaa di sisi Bayu, itu lebih dari cukup untuk Bayu melewati
+            segala suka dan duka dalam hidup Bayu.
+        </p>
+        <p>
+            Bayu tahu banyak hal yang sudah terjadi dalam
+            Hidup Endaa sebelum kita bertemu, maka dari itu izinkan
+            Bayu menjadi satu-satunya bintang yang paling terang
+            di langit Endaa. Bayu ingin membuktikan pada Endaa bahwa
+            tidak semua manusia itu sama. Kalau masa lalu Endaa
+            menyakiti Endaa, maka Bayu sebagai masa depan Endaa
+            akan selalu mengupayakan segala cara agar Endaa
+            senantiasa bersyukur memiliki Bayu dalam hidup Endaa.
+            Tidak ada hubungan yang sempurna, maka dari itu
+            maukah Endaa saling menyempurnakan dengan Bayu?
+            Tidak ada perjalanan yang selalu mendatangkan
+            bahagia, maka dari itu maukah Endaa menciptakan
+            kebahagiaan itu bersama Bayu?
+        </p>
+        <p>
+            Bayu tidak pernah menghitung hari dan ternyata
+            perjalanan kita sudah sejauh ini. Bayu senang sekali
+            karena Bayu punya kesempatan menjadi bagian dari
+            hidup Enda. Bayu selalu berdoa pada Tuhan, semoga
+            Endaa senantiasa dipeluk banyak kebaikan dan
+            kebahagiaan. Endaa berhasil mewujudkan semua
+            mimpi yang pernah Endaa ceritakan pada Bayu. Endaa
+            berhasil mengusahakan kebahagiaan orang-orang
+            yang Endaa cintai itu. Dan semoga Bayu bisa ikut serta
+            mendampingi Endaa selalu.
+        </p>
+        <p>
+            Kalau nanti ada kesalahpahaman yang terjadi di
+            antara kita, Bayu berharap kita bisa menyelesaikannya
+            sama-sama. Kalau nanti ada hal yang tidak Endaa
+            sukai dalam diri Bayu, tolong sampaikan pada Bayu lebih
+            dulu. Bayu akan berusaha untuk memperbaikinya,
+            sebab sungguh Bayu ingin kisah kita berakhir dengan
+            bahagia. Semoga kita bisa terus saling memaafkan.
+            Semoga kita tak pernah kehabisan kesempatan.
+            Untuk apa pun yang akan terjadi di depan sana, Bayu
+            selalu yakin kita pasti bisa melewatinya sama-sama.
+        </p>
+        <p>
+            I LOVE YOU APRI JONITA YENDAA 💔
+        </p>
+    </div>
+
+    <!-- Love Icons -->
+    <div class="love-icon" style="left: 10%; animation-delay: 0s;">💖</div>
+    <div class="love-icon" style="left: 20%; animation-delay: 2s;">💘</div>
+    <div class="love-icon" style="left: 30%; animation-delay: 1s;">💝</div>
+    <div class="love-icon" style="left: 40%; animation-delay: 3s;">💗</div>
+    <div class="love-icon" style="left: 50%; animation-delay: 0.5s;">💓</div>
+    <div class="love-icon" style="left: 60%; animation-delay: 2.5s;">💞</div>
+    <div class="love-icon" style="left: 70%; animation-delay: 1.5s;">💕</div>
+    <div class="love-icon" style="left: 80%; animation-delay: 3.5s;">💟</div>
+    <div class="love-icon" style="left: 90%; animation-delay: 0.2s;">💙</div>
+</body>
+</html>
